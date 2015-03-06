@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Cars</title>
+</head>
+<body>
+    <h1>Cars</h1>
+    {% if cars is not empty %}
+    <p>Here are all your cars:</p>
+    <ul>
+        {% for bob in cars %}
+            <li>{{ bob.getMakeModel }}</li>
+            <li>{{ bob.getPrice }}</li>
+            <li>{{ bob.getMiles }}</li>
+            <li>{{ bob.getImage }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% if cars is empty %}
+
+<p>There are no cars that meet your search criteria</p>
+    {% endif %}
+
+</body>
+</html>
