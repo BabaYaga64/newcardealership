@@ -8,12 +8,12 @@ This application allows users to search for and display a list of cars based on 
 
 Technologies Used
 
-PHP 
-HTML5 
-MAMP (or other PHP server) 
-Silex 
-Composer 
-Twig
+*PHP 
+*HTML5 
+*MAMP (or other PHP server) 
+*Silex 
+*Composer 
+*Twig
 
 ###Setup Instructions
 
